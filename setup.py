@@ -22,8 +22,8 @@ if LooseVersion(pip.__version__) < LooseVersion("19"):
 # TODO(@dathudeptrai) update requirement if needed.
 requirements = {
     "install": [
-        "tensorflow==2.14.0",
-        "tensorflow-addons==0.20.0",
+        "tensorflow==2.12.0",
+        "tensorflow-addons==0.19.0",
         "setuptools",
         "huggingface_hub",
         "librosa",
